@@ -1,0 +1,28 @@
+body,
+table{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+   list-style:none;
+}
+
+.blue{
+    color:cornflowerblue;
+}
+.gray{
+    color:darkgray;
+}
+.red{
+    color:red;
+}
+.white{
+    color:#fff;
+}
+.font{
+    font-size:18px;
+    font-weight:  bold;
+}

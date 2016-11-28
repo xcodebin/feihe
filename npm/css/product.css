@@ -1,0 +1,96 @@
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    height: 0;
+
+
+}
+.clearfix{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.clearfix li{
+    text-align: center;
+    display: inline-block;
+}
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li {
+    float: left;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-right: 30px;
+    line-height: 30px;
+}
+
+.list-product {
+    width: 100%;
+    display: inline-block;
+}
+
+.list-product ul {
+    display: inline-block;
+}
+
+.list-product li {
+    width: 30%;
+    height: 450px;
+    float: left;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+.list-product li img {
+    width: 100%;
+    height: 100%;
+}
+.dd{
+    margin: 0;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+
+}
+.dd img{
+    width: 200px;
+    height: 200px;
+}
+.dd ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.dd ul li{
+    padding: 15px;
+    margin-top: 30px;
+}
+.abc{
+    width: 20%!important;
+}
+section{
+    text-align: center;
+}
+aside{
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+
+}

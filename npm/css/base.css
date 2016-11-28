@@ -1,0 +1,221 @@
+﻿/*导航上半部分*/
+header {
+    background-color: white;
+}
+.title>img{
+    margin-left:-330px;
+}
+.navbar-h {
+    height: 70px;
+    font-size: 14px;
+    line-height: 70px;
+    padding-top: 20px;
+    box-sizing: content-box;
+}
+
+.navbar {
+    margin: 0;
+    border: none;
+    background: white;
+}
+
+.nav-img img {
+    width: 39px;
+    height: 28px;
+    margin-top: -6px;
+}
+
+.navbar-rightt {
+    margin-top: 23px;
+
+}
+
+.navbar-rightt li a:hover {
+    background: none;
+}
+
+/*导航下半部分*/
+.nav-tabs > li {
+    margin-bottom: 0px !important;
+}
+
+.navbar-f {
+    background: #1f49a6;
+}
+
+.navbar-f > ul {
+    border: none;
+}
+
+.navbar-f ul {
+    background: #1f49a6;
+}
+
+.navbar-f ul li a {
+    color: white !important;
+}
+
+.navbar-f > ul > li > a:hover {
+    border-radius: 0;
+    background-color: white;
+    color: #1f49a6 !important;
+}
+
+.navlist-first {
+    width: 150px;
+
+    border-right: 1px solid #3962bd;
+}
+
+.navlist-normal {
+    width: 164px;
+    border-left: 1px solid #003893;
+    border-right: 1px solid #3962bd;
+}
+
+.navlist-last {
+    width: 150px;
+    border-left: 1px solid #003893;
+}
+
+.background-blue {
+    background: #1f49a6;
+    border-radius: 0;
+}
+
+/*主体部分*/
+main {
+    background-color: #F7F7F7;
+}
+
+/*新闻*/
+.news {
+    background-color: white;
+}
+
+.tag {
+    margin: 0px 5px 0px 5px;
+}
+
+.news-title {
+    border-bottom: 2px solid black;
+}
+
+/*商品部分*/
+.pro {
+    background-color: white;
+}
+.price {
+    font-size: 30px;
+}
+
+/*以下为末尾部分*/
+footer {
+    margin-top: 30px;
+    background-color: #F7F7F7;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pag-footer {
+
+    background: #fff;
+    text-align: center;
+
+}
+
+.footer-content {
+    padding-top: 30px;
+    height: 180px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.footer-content .content-list {
+    display: inline-block;
+    width: 10%;
+    border-right: 1px solid gainsboro;
+}
+
+.content-list ul li a:hover {
+    text-decoration: underline;
+}
+
+.content-pic {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+.content-pic img {
+    height: 130px;
+
+}
+
+.content-list li a {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.footer-bottom {
+    line-height: 60px;
+    font-size: 12px;
+    color: darkgray;
+}
+/*悬浮导航条*/
+.float-nav{
+    position:fixed;
+    z-index: 1000;
+    right: 2px;
+    top:200px;
+    bottom: 0;
+}
+.float-nav>ul{
+    border: 1px solid gold;
+    color:chartreuse;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.float-nav>ul>li>a{
+    right: 9px;
+    position: fixed;
+    top: 235px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-radius: 0;
+}
+.nav .open > a, .nav .open > a:hover{
+    color:#1f49a6!important;
+    /*background-color: #3072a6;*/
+}
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown-menu>li>a:hover{
+    color:#1f49a6 !important
+}
+
+
+
+
+
+
