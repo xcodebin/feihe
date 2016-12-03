@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/public.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" media="screen" />
 </head>
 <body>
 <header>
